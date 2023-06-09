@@ -40,14 +40,7 @@ const Login = () => {
                   <Row>
                     <Col >
                       <div className="form-floating theme-form-floating log-in-form">
-                        <Input
-                          id="email"
-                          placeholder="Email Address"
-                          className="form-control m-2"
-                          value={email}
-                          type="email"
-                          onChange={(e) => setEmail(e.target.value)}
-                        />
+                        <Input id="email" placeholder="Email Address" className="form-control m-2" value={email} type="email" onChange={(e) => setEmail(e.target.value)}/>
                         <Label>Enter Email</Label>
                       </div>
                     </Col>
